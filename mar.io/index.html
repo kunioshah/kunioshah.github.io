@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://kunioshah.github.io/assets/css/main.css" />
+    <title>Unity WebGL Player | Mar.io Apocalypse</title>
+  </head>
+  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
+    	<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+
+					<!-- Logo -->
+						<h1><a href="https://kunioshah.github.io/index.html">Kunal Shah</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="https://kunioshah.github.io/index.html">Home</a></li>
+								<li class="current"></liclass>
+									<a href="#">Projects</a>
+									<ul>
+										<li><a href="https://kunioshah.github.io/Projects.html#GAMES_SECTION">Games</a></li>
+										<li><a href="https://kunioshah.github.io/Projects.html#APPS_SECTION">Apps</a></li>
+										<li><a href="https://kunioshah.github.io/Art.html">Artwork</a></li>
+									</ul>
+								</li>
+								<li><a href="https://kunioshah.github.io/no-sidebar.html">About Me</a></li>
+								<li><a href="https://kunioshah.github.io/no-sidebar-2.html">Fun Facts</a></li>
+								<li><a href="https://sites.google.com/view/discover-engineering-group-333/home">USC Engg Projects</a></li>
+		
+							</ul>
+						</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+    <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/MarioWebGl.loader.js"></script>
+    <script>
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        // Mobile device style: fill the whole browser client area with the game canvas:
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+
+        var canvas = document.querySelector("#unity-canvas");
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+        canvas.style.position = "fixed";
+
+        document.body.style.textAlign = "left";
+      }
+
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/MarioWebGl.data.br",
+        frameworkUrl: "Build/MarioWebGl.framework.js.br",
+        codeUrl: "Build/MarioWebGl.wasm.br",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Kunal Shah's company",
+        productName: "Mar.io Apocalypse",
+        productVersion: "1.0",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+        </section></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+  </body>
+</html>

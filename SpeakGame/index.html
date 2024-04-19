@@ -3,41 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="https://kunioshah.github.io/assets/css/main.css" />
-    <title>SPEAK Game by Kunal Shah</title>
+    <title>Unity WebGL Player | SPEAK Game</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    	<div id="page-wrapper">
-
-			<!-- Header -->
-				<section id="header">
-
-					<!-- Logo -->
-						<h1><a href="https://kunioshah.github.io/index.html">Kunal Shah</a></h1>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="https://kunioshah.github.io/index.html">Home</a></li>
-								<li class="current"></liclass>
-									<a href="https://kunioshah.github.io/Projects.html">Projects</a>
-									<ul>
-										<li><a href="https://kunioshah.github.io/Projects.html#GAMES_SECTION">Games</a></li>
-										<li><a href="https://kunioshah.github.io/Projects.html#APPS_SECTION">Apps</a></li>
-										<li><a href="https://kunioshah.github.io/Art.html">Artwork</a></li>
-									</ul>
-								</li>
-								<li><a href="https://kunioshah.github.io/no-sidebar.html">About Me</a></li>
-								<li><a href="https://kunioshah.github.io/no-sidebar-2.html">Fun Facts</a></li>
-								<li><a href="https://sites.google.com/view/discover-engineering-group-333/home">USC Engg Projects</a></li>
-		
-							</ul>
-						</nav>
-
-				</section>
-
-			<!-- Main -->
-				<section id="main">
+  <body>
+    <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
@@ -98,7 +69,7 @@
         showBanner: unityShowBanner,
       };
 
-      // By default Unity keeps WebGL canvas render target size matched with
+      // By default, Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
       // Set this to false if you want to decouple this synchronization from
       // happening inside the engine, and you would instead like to size up
@@ -147,15 +118,5 @@
       document.body.appendChild(script);
 
     </script>
-        </section></div>
-
-        <!-- Scripts -->
-          <script src="assets/js/jquery.min.js"></script>
-          <script src="assets/js/jquery.dropotron.min.js"></script>
-          <script src="assets/js/browser.min.js"></script>
-          <script src="assets/js/breakpoints.min.js"></script>
-          <script src="assets/js/util.js"></script>
-          <script src="assets/js/main.js"></script>
-      </body>
-    </html>
-    
+  </body>
+</html>

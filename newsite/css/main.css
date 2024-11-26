@@ -557,17 +557,18 @@ section,
 
 .hero img {
   position: absolute;
+  opacity: 0.1;
   inset: 0;
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   z-index: 1;
 }
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: color-mix(in srgb, var(--background-color), transparent 50%);
   position: absolute;
   inset: 0;
   z-index: 2;

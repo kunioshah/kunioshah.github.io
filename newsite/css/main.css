@@ -285,6 +285,9 @@ h6 {
   font-size: 20px;
   margin-right: 10px;
 }
+[class*=" bi-"]::before {
+  line-height: 1.5;
+}
 
 .navmenu a .toggle-dropdown,
 .navmenu a:focus .toggle-dropdown {

@@ -991,7 +991,7 @@ section,
 .artwork .artwork-content .artwork-info .preview-link,
 .artwork .artwork-content .artwork-info .details-link {
   position: absolute;
-  left: calc(50% - 25px);
+  left: calc(50% - 22px);
   font-size: 26px;
   top: calc(50% - 14px);
   color: #fff;

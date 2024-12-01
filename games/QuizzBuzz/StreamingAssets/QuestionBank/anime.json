@@ -1,0 +1,276 @@
+{
+  "Questions": [
+    {
+      "Text": "In the anime My Hero Academia, what is the name of the quirkIzuku Midoriya receives from All Might?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "One For All"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Sharingan"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the playful fox spirit character in Naruto named after a type of ramen?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Naruto Uzumaki"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Kurama"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of theOooooooooooversized sword wielded by Guts in the dark fantasy anime Berserk?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Dragonslayer"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Zanpakuto"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which magical school does Harry Potter attend in the book series also adapted into an anime?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Hogwarts"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Academy City"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the powerful Saiyan warrior with golden hair in Dragon Ball Z?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Super Saiyan Goku"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Light Yagami"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Sailor Moon is the leader of which group of magical girls who fight for justice?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The Sailor Guardians"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The Akatsuki"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the notebook that grants the power to kill anyone whose name is written in it, featured in Death Note?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Death Note"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Grimmoire"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the giant robot piloted by teenagers in the anime Neon Genesis Evangelion called?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Evangelion Unit"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Gundam"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the spirit world characters who can befriend humans and help them fight evil in Bleach?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Shinigami"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Titans"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the game where players catch and train fictional creatures in the Pokemon series?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Pokeball throwing"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Pokemon battling"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the jutsu that uses hand signs to create powerful techniques in Naruto?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Ninjutsu"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Genjutsu"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the powerful titan Eren Yeager transforms into in Attack on Titan?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Attack Titan"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Colossal Titan"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the fruit that grants the power to stretch in the anime One Piece?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Gomu Gomu no Mi (Gum-Gum Fruit)"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Devil Fruit"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the cooking competition reality show that is surprisingly intense in the anime Food Wars!",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Shokugeki no Soma"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Death Chef Challenge"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the transformation a Saiyan undergoes that increases their strength in Dragon Ball Z?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Super Saiyan"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Sharingan"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the legendary ninja who can copy any jutsu he sees in Naruto?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Kakashi Hatake"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Rock Lee"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    }
+  ]
+}

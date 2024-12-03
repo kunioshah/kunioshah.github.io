@@ -336,7 +336,7 @@ table th {
   border-top-style: solid;
   border-left-style: solid;
   border-bottom-width: 0pt;
-  width: 234pt;
+  width: 500px;
   border-top-color: #000000;
   border-bottom-style: solid;
 }
@@ -356,8 +356,8 @@ table th {
   font-weight: 400;
   text-decoration: none;
   vertical-align: baseline;
-  font-size: 12pt;
-  font-family: "Poppins";
+  font-size: 20pt;
+  font-family: "Glacial Indifference", sans-serif;
   font-style: normal;
 }
 
@@ -377,7 +377,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 14pt;
-  font-family: "Poppins";
+  font-family: "Glacial Indifference", sans-serif;
   font-style: normal;
 }
 
@@ -387,7 +387,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 13pt;
-  font-family: "Poppins";
+  font-family: "Glacial Indifference", sans-serif;
   font-style: normal;
 }
 
@@ -397,7 +397,7 @@ table th {
   text-decoration: none;
   vertical-align: baseline;
   font-size: 30pt;
-  font-family: "Poppins";
+  font-family: "Glacial Indifference", sans-serif;
   font-style: normal;
 }
 

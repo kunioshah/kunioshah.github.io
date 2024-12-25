@@ -1,0 +1,1024 @@
+{
+  "Questions": [
+    {
+      "Text": "What is the name of the toy cowboy in Toy Story?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Woody"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Buzz"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the color of an emerald?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Green"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Red "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is something you hit with a hammer?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A nail"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "A screw "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What's the name of a place you go to see lots of animals?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The zoo"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Apocalyptic  wasteland"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Whose nose grew longer every time he lied?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Pinocchio"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Voldemort"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the fairy in Peter Pan?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Tinkerbell"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Captain Hook"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "If you freeze water, what do you get?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Ice "
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Lava"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What colors are the stars on the American flag?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "White "
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Blue "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "In the nursery rhyme,Jack and Jill, what do Jack and Jill go up the hill to fetch?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A pail of water"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "An Egg"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Where does the President of the United States live while in office?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The White House "
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The Green Home"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "How many planets are in our solar system?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Eight"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Six"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which ocean is off the California coast?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The Pacific"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The Atlantic "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What fruit do kids traditionally give to teachers",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Apple"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Watermelon"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What's the response to \"see you later, alligator?\"",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "\"In a while, crocodile.\""
+        },
+        {
+          "IsCorrect": false,
+          "Text": "\"Goodbye, butterfly!\""
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which Disney movie is Elsa in?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Frozen"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Finding Nemo"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Who is Mickey Mouse's girlfriend?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Minnie Mouse"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Goofy"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Where does Santa Claus live?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The North Pole"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The South Pole"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Who stole Christmas according to the Dr. Suess book?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The Grinch"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Santa Claus"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which state is famous for Hollywood?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "California"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Florida "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What type of fish is Nemo?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A clownfish"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "A Starfish"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What do caterpillars turn into?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Butterflies"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Bees"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the color of a school bus?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Yellow"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Blue "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What do you use to write on a blackboard?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Chalk"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Marker"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "On which holiday do you go trick-or-treating?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Halloween"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Christmas"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "How many pairs of wings do bees have?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Two"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Eight "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Where is the Great Pyramid of Giza?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Egypt "
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Uruguay"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is a doe?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A deer, a female deer"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "A drop of golden sun"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What do bees make?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Honey"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Nuclear Bombs "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "When do leaves fall out?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "In the fall"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "In the Summer"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "How many days are in a year?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "365"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "300"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the pirate in Peter Pan?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Captain Hook"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Captain Sparrow"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is a brontosaurus?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A dinosaur"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "A Shark"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is a group of lions called?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A pride"
+        },
+        {
+          "IsCorrect": false,
+          "Text": " A herd"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which is the fastest land animal?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The cheetah"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The Lion"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What kind of animal was Abu in Aladdin?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A monkey"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "A Owl"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Who wrote Hamlet?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "William Shakespeare"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Arthur Conan Doyle"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Who built the pyramids?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The Egyptians"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The Indians"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "In the nursery rhyme, who sat on a wall before having a great fall?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Humpty Dumpty"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Jack and Jill"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "On the farm, what is a kid?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A baby goat"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "A baby giraffe "
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of Harry Potter's pet owl?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Hedwig"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Crookshanks"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What color are Smurfs?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Blue "
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Green"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Name Batman's crime-fighting partner?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Robin"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Batgirl"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "How many sides does a triangle have?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Three"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Two"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which superhero can climb up walls and buildings?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Spiderman"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Superman"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "\"Stars and Stripes\" is the nickname of the flag of which country?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "United States of America"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Mexico"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which planet in our Solar System is known for having a ring?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Saturn"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Venus"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Why do things fall when you drop them?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Because of gravity"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Because of seasons."
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the largest mammal in the world?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A whale"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Elephant"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "How many colors are in a rainbow?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Seven"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Five"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "In which capital city of Europe would you find the Eiffel Tower?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Paris"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Rome"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which country is home to the kangaroo?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Australia"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "South Africa"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Which animal is the tallest in the world?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Giraffe"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Lebron James"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "A scientist who studies rocks is called a what?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "A geologist"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "A paleantologist"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What could make Harry Potter invisible?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The Invisibility Cloak"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "His wand"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "If you suffer from arachnophobia, which animal are you scared of?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Spiders"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Snakes"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What food do pandas eat?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Bamboo"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Fish"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "How many continents are there in the world?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Seven"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Five"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "How many bones do sharks have?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Zero"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "125"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Can you name the closest star to Earth?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The sun"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The moon"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Who invented the telephone?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Alexander Graham Bell"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Thomas Edison"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "Questions": [
+    {
+      "Text": "What is the name of the Hogwarts School of Witchcraft and Wizardry headmaster in the \u0027Harry Potter\u0027 series?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Albus Dumbledore"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Severus Snape"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What famous line does Darth Vader say to his son Luke in \u0027Star Wars: Episode V - The Empire Strikes Back\u0027?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "I am your father"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "May the Force be with you"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the iconic ship captained by Jack Sparrow in the \u0027Pirates of the Caribbean\u0027 franchise?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Black Pearl"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Flying Dutchman"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What classic coming-of-age story features a young girl named Dorothy who travels to the magical Land of Oz?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The Wizard of Oz"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Alice in Wonderland"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the brave lion who joins Dorothy on her journey in \u0027The Wizard of Oz\u0027?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Cowardly Lion"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Tin Man"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the amusement park Andy takes his toys to in \u0027Toy Story\u0027?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Pizza Planet"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Jurassic Park"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What superhero is known for his iconic shield and the phrase \u0027Avengers Assemble\u0027?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Captain America"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Iron Man"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What animated movie features a grumpy ogre named Shrek who falls in love with a princess named Fiona?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Shrek"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Finding Nemo"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the spacefaring cowboy and bounty hunter in the \u0027Star Wars\u0027 universe?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Han Solo"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Luke Skywalker"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the young boy who can talk to animals in the Disney movie \u0027The Lion King\u0027?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Simba"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Mufasa"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the mischievous green ogre who lives in a swamp and loves waffles in the movie \u0027Shrek\u0027?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Shrek"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Donkey"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the caped crusader who fights crime in Gotham City?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Batman"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Superman"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the animated robot who falls in love with a human woman in the movie \u0027WALL-E\u0027?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "WALL-E"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Eve"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the magical school attended by Harry Potter, Ron Weasley, and Hermione Granger?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Hogwarts School of Witchcraft and Wizardry"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Dumbledore\u0027s Academy"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the beloved droid companion to Luke Skywalker in the \u0027Star Wars\u0027 saga?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "R2-D2"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "C-3PO"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the animated movie featuring a group of toys that come to life when humans are not around?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Toy Story"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The Incredibles"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the jungle book where a boy named Mowgli is raised by wolves?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The Jungle Book"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The Lion King"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What animated Disney movie features a princess who is turned into a frog and must find a prince to kiss her?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The Princess and the Frog"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Cinderella"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    }
+  ]
+}

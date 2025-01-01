@@ -1,2 +1,7 @@
 
 .DS_Store
+games/QuizzBuzz/StreamingAssets/mlModels/mnv1_fuse3_256p_w336xh189.tflite
+games/QuizzBuzz/StreamingAssets/mlModels/mnv1_fuse3_int8_w256xh144.tflite
+games/QuizzBuzz/StreamingAssets/mlModels/mnv1_fuse3_int8_w336xh189.tflite
+games/QuizzBuzz/StreamingAssets/mlModels/mnv1_fuse3_int8_w368xh207.tflite
+games/QuizzBuzz/StreamingAssets/mlModels/mnv1_fuse3_int8_w416xh234.tflite

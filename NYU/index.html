@@ -107,6 +107,10 @@
         margin-top: 0.2rem;
       }
     }
+
+    .pt-reduced {
+      padding: 0.01rem 1rem;
+    }
   </style>
 </head>
 
@@ -199,12 +203,21 @@
                   aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
                     <div class="modal-content">
-                      <div class="modal-header">
+                      <div class="modal-header pt-reduced">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">QuizzBuzz</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        <div id="game">
+                        <div style="display: flex;
+                    justify-content: center;
+                    align-items: center;">
+                          <h3 style="padding: 0px;"><b>Please enable Camera permissions on your browser when
+                              prompted.</b>
+                          </h3>
+                        </div>
+                        <div id="game" style="display: flex;
+                    justify-content: center;
+                    align-items: center;">
                           <div id="unity-container" class="unity-desktop">
                             <div id="loadingBox">
                               <div style="position: absolute; left: 46%; top:40%">
@@ -325,9 +338,9 @@
 
                           </script>
                         </div>
-                        <h3><b>Please enable Camera permissions on your browser when prompted.</b></h3>
+
                       </div>
-                      <div class="modal-footer">
+                      <div class="modal-footer pt-reduced">
                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>

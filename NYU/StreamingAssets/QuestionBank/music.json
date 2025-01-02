@@ -1,0 +1,361 @@
+{
+  "Questions": [
+    {
+      "Text": "What is the person who sings the main melody in a song called?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Singer"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Dancer"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What are the black and white keys on a piano called?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Keys"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Strings"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What do you call a group of singers who sing together?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Choir"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Band"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the genre of music that typically features rhythmic rapping and electronic beats?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Hip hop"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Country"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the musical notation system that uses lines and spaces to represent notes?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Staff"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Melody"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "Maracas are instruments that you typically ",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Shake"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Blow"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the instrument that is often played in orchestras and has four strings?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Violin"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Trumpet"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "The tempo of a song refers to how ",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Fast or slow it is played"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Loud or quiet it is played"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What do you call a song that is typically sung for celebrations?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Celebration song"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Sad song"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of a musical group that typically plays together regularly?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Band"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Audience"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the genre of music that is often associated with guitars and lyrics about love and heartbreak?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Country"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Rock"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of the instrument that a guitarist strums to create sound?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Pick"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Drum"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the part of a song that repeats and is often the most catchy?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Chorus"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Intro"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of a genre of music that originated in Africa and features rhythmic drumming and chanting?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Afrobeat"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Classical"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What do you call someone who writes music?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Composer"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Singer"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "A microphone is used to ",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Amplify your voice"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Change the pitch of your voice"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the genre of music that is typically loud and energetic with distorted guitars and powerful vocals?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Rock"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Pop"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "When singers perform together but don\u0027t sing the main melody, they are called ",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Backup singers"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Soloists"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What are the lyrics in a song?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "The words"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "The melody"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What is the name of a genre of music that is typically upbeat and happy with catchy melodies?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Pop"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Jazz"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    },
+    {
+      "Text": "What do you call a musical piece that is played by a large group of musicians?",
+      "Image": null,
+      "Video": null,
+      "Answers": [
+        {
+          "IsCorrect": true,
+          "Text": "Orchestra"
+        },
+        {
+          "IsCorrect": false,
+          "Text": "Jazz"
+        }
+      ],
+      "Bonus": null,
+      "Time": null
+    }
+  ]
+}

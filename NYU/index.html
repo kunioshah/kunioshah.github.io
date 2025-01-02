@@ -34,6 +34,75 @@
     .games {
       font-family: 'Glacial Indifference', sans-serif;
     }
+
+
+    .tabsWrappingDiv {
+      /*  left: 50%;
+      transform: translateX(-50%);
+      position: relative;
+      padding: 50px;
+      padding-bottom: 80px;
+      width: 70%;
+*/
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 5px;
+
+    }
+
+    /**
+ * Tabs
+ */
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+    .tabs label {
+      order: 1;
+      display: block;
+      padding: 1rem 2rem;
+      margin-right: 0.2rem;
+      cursor: pointer;
+      background: #eeeeee;
+      font-weight: bold;
+      transition: background ease 0.2s;
+    }
+
+    .tabs .tab {
+      order: 99;
+      flex-grow: 1;
+      width: 100%;
+      display: none;
+      padding: 1rem;
+      background: #fff;
+    }
+
+    .tabs input[type="radio"] {
+      display: none;
+    }
+
+    .tabs input[type="radio"]:checked+label {
+      background: #fff;
+    }
+
+    .tabs input[type="radio"]:checked+label+.tab {
+      display: block;
+    }
+
+    @media (max-width: 45em) {
+
+      .tabs .tab,
+      .tabs label {
+        order: initial;
+      }
+
+      .tabs label {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0.2rem;
+      }
+    }
   </style>
 </head>
 
@@ -91,24 +160,204 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-
           <div>
-            <iframe width="1320" height="740" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            <iframe width="1024" height="576" src="https://www.youtube.com/embed/tgbNymZ7vqY">
             </iframe>
-
           </div>
+        </div>
+        <br>
+        <div class="tabsWrappingDiv">
+          <div class="tabs">
+            <input type="radio" name="tabs" id="tabone" checked="checked">
+            <label for="tabone">Download QuizzBuzz for Mac</label>
+            <div class="tab">
+              <h1>Download for Mac instructions</h1>
+              <h3>Once the App is downloaded, please copy to your Applications folder.</h3>
+              <h3>Double click QuizzBuzz.App to start.</h3>
+              <h3><b>Please stand 3 feet back for the camera to capture your body position.</b></h3>
+              <p>&nbsp;</p>
+              <a class="btn btn-primary btn-lg" href="/games.html" role="button">Download</a>
+            </div>
+
+            <input type="radio" name="tabs" id="tabtwo">
+            <label for="tabtwo">Download QuizzBuzz for Windows</label>
+            <div class="tab">
+              <h1>Download for Windows instructions</h1>
+              <h3>Once the App is downloaded, please extract the Zip file to another folder.</h3>
+              <h3>Open the folder and double click QuizzBuzz.exe to start.</h3>
+              <h3><b>Please stand 3 feet back for the camera to capture your body position.</b></h3>
+              <p>&nbsp;</p>
+              <a class="btn btn-primary btn-lg" href="/games.html" role="button">Download</a>
+            </div>
+
+            <input type="radio" name="tabs" id="tabthree">
+            <label for="tabthree">Play on Browser</label>
+            <div class="tab">
+              <h3>The web version of this game cannot support Multiplayer as OpenCV library cannot detect multiple
+                players on Web browser.</h3>
+
+              <h3>Single player with hand movements and Open AI works fine.</h3>
+              <h3><b>Please enable Camera permissions on your browser when prompted.</b></h3>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Launch QuizzBuzz
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">QuizzBuzz</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div id="game">
+                        <div id="unity-container" class="unity-desktop">
+                          <div id="loadingBox">
+                            <div style="position: absolute; left: 46%; top:40%">
+                              <span class="spinner-border text-primary" role="status"></span>
+                              <br>
+                              <span class="text-muted fs-6 fw-semibold mt-5">Loading...</span>
+                            </div>
+                          </div>
+
+                          <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+                          <div id="unity-loading-bar">
+                            <div id="unity-logo"></div>
+                            <div id="unity-progress-bar-empty">
+                              <div id="unity-progress-bar-full"></div>
+                            </div>
+                          </div>
+                          <div id="unity-warning"> </div>
+                          <div id="unity-footer">
+
+                            <div id="unity-fullscreen-button"></div>
+
+                          </div>
+                        </div>
+                        <script>
+
+                          var container = document.querySelector("#unity-container");
+                          var canvas = document.querySelector("#unity-canvas");
+                          var loadingBar = document.querySelector("#unity-loading-bar");
+                          var progressBarFull = document.querySelector("#unity-progress-bar-full");
+                          var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+                          var warningBanner = document.querySelector("#unity-warning");
+
+                          // Shows a temporary message banner/ribbon for a few seconds, or
+                          // a permanent error message on top of the canvas if type=='error'.
+                          // If type=='warning', a yellow highlight color is used.
+                          // Modify or remove this function to customize the visually presented
+                          // way that non-critical warnings and error messages are presented to the
+                          // user.
+                          function unityShowBanner(msg, type) {
+                            function updateBannerVisibility() {
+                              warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+                            }
+                            var div = document.createElement('div');
+                            div.innerHTML = msg;
+                            warningBanner.appendChild(div);
+                            if (type == 'error') div.style = 'background: red; padding: 10px;';
+                            else {
+                              if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+                              setTimeout(function () {
+                                warningBanner.removeChild(div);
+                                updateBannerVisibility();
+                              }, 5000);
+                            }
+                            updateBannerVisibility();
+                          }
+
+                          var buildUrl = "Build";
+                          var loaderUrl = buildUrl + "/QuizzBuzz.loader.js";
+                          var config = {
+                            dataUrl: buildUrl + "/QuizzBuzz.data",
+                            frameworkUrl: buildUrl + "/QuizzBuzz.framework.js",
+                            codeUrl: buildUrl + "/QuizzBuzz.wasm",
+                            streamingAssetsUrl: "StreamingAssets",
+                            companyName: "DefaultCompany",
+                            productName: "QuizzBuzz",
+                            productVersion: "1.0",
+                            showBanner: unityShowBanner,
+                          };
+
+                          // By default, Unity keeps WebGL canvas render target size matched with
+                          // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+                          // Set this to false if you want to decouple this synchronization from
+                          // happening inside the engine, and you would instead like to size up
+                          // the canvas DOM size and WebGL render target sizes yourself.
+                          // config.matchWebGLToCanvasSize = false;
+
+                          if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+                            // Mobile device style: fill the whole browser client area with the game canvas:
+
+                            var meta = document.createElement('meta');
+                            meta.name = 'viewport';
+                            meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+                            document.getElementsByTagName('head')[0].appendChild(meta);
+                            container.className = "unity-mobile";
+                            canvas.className = "unity-mobile";
+
+                            // To lower canvas resolution on mobile devices to gain some
+                            // performance, uncomment the following line:
+                            // config.devicePixelRatio = 1;
+
+
+                          } else {
+                            // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+                            canvas.style.width = "960px";
+                            canvas.style.height = "600px";
+                          }
+
+                          loadingBar.style.display = "block";
+
+                          var script = document.createElement("script");
+                          script.src = loaderUrl;
+                          script.onload = () => {
+                            createUnityInstance(canvas, config, (progress) => {
+                              progressBarFull.style.width = 100 * progress + "%";
+                            }).then((unityInstance) => {
+                              document.getElementById("loadingBox").style.display = "none";
+                              loadingBar.style.display = "none";
+                              fullscreenButton.onclick = () => {
+                                unityInstance.SetFullscreen(1);
+                              };
+                            }).catch((message) => {
+                              alert(message);
+                            });
+                          };
+
+                          document.body.appendChild(script);
+
+                        </script>
+                      </div>
+                      <h3><b>Please enable Camera permissions on your browser when prompted.</b></h3>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
 
+            </div>
+          </div>
         </div>
         <div>
           <table class="c9">
             <tr class="c11">
               <td class="c10" align="center" style="padding: 25px;">
-                <a class="btn btn-primary btn-lg" href="/games.html" role="button">Download for Mac</a>
+
               </td>
               <td class="c10" align="center" style="padding: 25px;">
-                <a class="btn btn-primary btn-lg" href="/games.html" role="button">Download for Windows</a>
+
               </td>
             </tr>
           </table>
@@ -129,7 +378,10 @@
             <table class="c9">
               <tr class="c11">
                 <td class="c10" colspan="2" rowspan="1">
-                  <p class="c8"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEX CEO, David Lee's, post</span></p>
+                  <p class="c8"><span class="c0" style="font-size: 29px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NEX CEO (David
+                      Lee),
+                      after publishing
+                      the game on Nex Console</span></p>
                 </td>
               </tr>
               <tr class="c11">
@@ -149,280 +401,7 @@
       </div>
 
     </section><!-- /Games Section -->
-    <!-- Games Section -->
-    <section id="games" class="games section light-background" style="padding: 10px;">
 
-
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="c12 doc-content">
-            <p class="c3"><span class="c0"></span></p>
-            <table class="c9">
-              <tr class="c11">
-                <td class="c10" colspan="2" rowspan="1">
-                  <p class="c8"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;Why This Game? </span></p>
-                </td>
-                <td class="c1" colspan="1" rowspan="2">
-                  <span style="overflow: hidden; display: inline-block; margin: 18.03px 1.90px; border: 0.00px solid #000000;
-                     transform: rotate(0.12rad) translateZ(0px); -webkit-transform: rotate(0.12rad) translateZ(0px); 
-                     width: 400.00px; height: 66.33px;"><img alt="" src="/gamedesign/quizzbuzz/images/image1.png"
-                      style="width: 400.00px; height: 66.33px; 
-                     margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); 
-                      -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; 
-                      margin: 4.77px 0.67px; border: 0.00px solid #000000; 
-                    transform: rotate(6.25rad) translateZ(0px); -webkit-transform: rotate(6.25rad) translateZ(0px); 
-                    width: 400.00px; height: 66.67px;"><img alt="" src="/gamedesign/quizzbuzz/images/image6.png" style="width: 400.00px; height: 66.67px; margin-left: 0.00px; 
-                    margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); 
-                      -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; 
-                      margin: 8.44px 1.66px; border: 0.00px solid #000000; transform: rotate(0.06rad) translateZ(0px); 
-                    -webkit-transform: rotate(0.06rad) translateZ(0px); width: 400.00px; height: 88.67px;"><img alt=""
-                      src="/gamedesign/quizzbuzz/images/image5.png" style="width: 298.00px; height: 66.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); 
-                      -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; 
-                      margin: 12.35px 0.93px; border: 0.00px solid #000000; transform: rotate(6.20rad) translateZ(0px); 
-                    -webkit-transform: rotate(6.20rad) translateZ(0px); width: 400.00px; height: 50.67px;"><img alt=""
-                      src="/gamedesign/quizzbuzz/images/image3.png" style="width: 400.00px; height: 50.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); 
-                      -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span>
-                </td>
-              </tr>
-              <tr class="c11">
-                <td class="c1" colspan="1" rowspan="2">
-                  <ul class="c15 lst-kix_ea5i37lbtte1-0 start">
-                    <li class="c7 li-bullet-0"><span class="c16">High demand for educational game on <a
-                          href="https://www.nexplayground.com/" target="_blank">
-                          NEX playground</a> on social media<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">Perfect for younger audience<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">NEX Playground is an ideal medium to keep kids active
-                        and
-                        learn simultaneously<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">Formatting the game as a competition, similar to
-                        educational games like Kahoot, drives engagement<br><br></span></li>
-                  </ul>
-                  <p class="c3"><span class="c0"></span></p>
-                </td>
-
-              </tr>
-
-            </table>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Games Section -->
-    <!-- Games Section -->
-    <section id="games" class="games section light-background" style="padding: 10px;">
-
-
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="c12 doc-content">
-            <table class="c9">
-              <tr class="c11">
-                <td class="c10" colspan="2" rowspan="1">
-                  <p class="c8"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why use AI?</span></p>
-                </td>
-              </tr>
-              <tr class="c11">
-                <td class="c1" colspan="1" rowspan="2">
-                  <p class="c8 c17"><span><img alt="" src="/gamedesign/quizzbuzz/images/image4.png"
-                        style="width: 500px; height: 281px;" title=""></span></p>
-                  <p class="c3"><span class="c0"></span></p>
-                </td>
-                <td class="c1" colspan="1" rowspan="2">
-                  <ul class="c15 lst-kix_ea5i37lbtte1-0 start">
-                    <li class="c7 li-bullet-0"><span class="c16">Personalized content for user&rsquo;s choices
-                        making it engaging<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">Dynamic Gameplay from AI (specify age,
-                        difficulty
-                        level)<br><br></span></li>
-
-                  </ul>
-
-                  <p class="c3"><span class="c0"></span></p>
-                </td>
-              </tr>
-              <tr class="c11"></tr>
-            </table>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Games Section -->
-    <!-- Games Section -->
-    <section id="games" class="games section light-background" style="padding: 10px;">
-
-
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="c12 doc-content">
-
-            <table class="c9">
-              <tr class="c11">
-                <td class="c10" colspan="2" rowspan="1">
-                  <p class="c8"><span class="c0">It&#39;s all in the prompt</span></p>
-                </td>
-              </tr>
-              <tr class="c11">
-                <td class="c10" colspan="2" rowspan="2">
-                  <span class="c16">Here is the prompt I used for getting quiz questions from OpenAI:<br><br></span>
-                  <p class="c21"><span class="c18">Give me </span><span class="c6">10</span><span class="c18">&nbsp;quiz
-                      questions about the topic of </span><span class="c6">&lt;QUIZ TOPIC&gt;.</span><span
-                      class="c18">&nbsp;The questions should be at a </span><span class="c6">hard</span><span
-                      class="c18">&nbsp;level. Return your answer entirely in the form of a </span><span class="c6">JSON
-                      object</span><span class="c18">. The JSON object should have a key named
-                    </span><span class="c6">&quot;Questions&quot; </span><span class="c18">which is an array of the
-                      questions. Each quiz question should include only </span><span class="c6">2 choices,</span><span
-                      class="c18">&nbsp;and an array of </span><span class="c6">&quot;Answers&quot;.</span><span
-                      class="c18">&nbsp;Please make sure the correct answer is the first choice. Do not include any
-                      explanation.</span><span class="c22"><br></span></p>
-                </td>
-              </tr>
-              <tr class="c11"></tr>
-            </table>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Games Section -->
-    <!-- Games Section -->
-    <section id="games" class="games section light-background" style="padding: 10px;">
-
-
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="c12 doc-content">
-
-            <table class="c9">
-              <tr class="c11">
-                <td class="c10" colspan="2" rowspan="1">
-                  <p class="c8"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;Game Explanation</span></p>
-                </td>
-                <td class="c1" colspan="1" rowspan="3">
-                  <p class="c8"><span><img alt="" src="/gamedesign/quizzbuzz/images/mutiplayer.png"
-                        style="width: 100%; height: 100%;" title=""></span></p>
-                </td>
-              </tr>
-              <tr class="c11">
-                <td class="c1" colspan="1" rowspan="2">
-                  <ul class="c15 lst-kix_ea5i37lbtte1-0 start">
-                    <li class="c7 li-bullet-0"><span class="c16">The game can use a preset bank of questions for offline
-                        mode<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">User can also use AI to generate questions on any
-                        topic<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">Up to four players compete in a set of ten quick
-                        questions</span></li>
-                  </ul>
-                </td>
-
-              </tr>
-
-            </table>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Games Section -->
-    <!-- Games Section -->
-    <section id="games" class="games section light-background" style="padding: 10px;">
-
-
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="c12 doc-content">
-
-            <table class="c9">
-              <tr class="c11">
-                <td class="c10" colspan="2" rowspan="1">
-                  <p class="c8"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;Computer Vision</span></p>
-                </td>
-              </tr>
-              <tr class="c11">
-                <td class="c1" colspan="1" rowspan="2">
-                  <p class="c8"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt=""
-                        src="/gamedesign/quizzbuzz/images/computervision.png"
-                        style="width: 400px; height: 400px; margin-left: 0.00px; margin-top: -3.20px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-                        title=""></span></p>
-                </td>
-                <td class="c1" colspan="1" rowspan="2">
-                  <ul class="c15 lst-kix_ea5i37lbtte1-0 start">
-                    <li class="c7 li-bullet-0"><span class="c16">Used Open Computer Vision Library (OpenCV) to detect
-                        player's body features<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">Tracked left or right hand and elbow to wrist angle to
-                        check if hand was raised<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">Created player video frame which would check and pan to
-                        player's nose to keep face centered on the video frame</span></li>
-                  </ul>
-                </td>
-
-              </tr>
-              <tr class="c11"></tr>
-            </table>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Games Section -->
-    <!-- Games Section -->
-    <section id="games" class="games section light-background" style="padding: 10px;">
-
-
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="c12 doc-content">
-
-            <table class="c9">
-              <tr class="c11">
-                <td class="c10" colspan="2" rowspan="1">
-                  <p class="c8"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;Score Leaderboard</span></p>
-                </td>
-                <td class="c1" colspan="1" rowspan="2">
-                  <p class="c8"><span><img alt="" src="/gamedesign/quizzbuzz/images/leaderboard.png"
-                        style="width: 100%; height: 100%;" title=""></span></p>
-                </td>
-              </tr>
-              <tr class="c11">
-                <td class="c1" colspan="1" rowspan="2">
-                  <ul class="c15 lst-kix_ea5i37lbtte1-0 start">
-                    <li class="c7 li-bullet-0"><span class="c16">Tracked and compiled score for each player to show
-                        Podium style Leaderboard<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">Used Computer Vision and video frame to show
-                        1<sup>st</sup>, 2<sup>nd</sup> and 3<sup>rd</sup>
-                        players on the podium<br><br></span></li>
-                    <li class="c7 li-bullet-0"><span class="c16">Created dynamic animation to show spotlight and
-                        podium</span></li>
-                  </ul>
-                </td>
-
-              </tr>
-
-            </table>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Games Section -->
   </main>
 
   <footer id="footer" class="footer position-relative light-background">

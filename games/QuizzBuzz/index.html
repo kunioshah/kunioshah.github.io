@@ -35,6 +35,89 @@
       font-family: 'Glacial Indifference', sans-serif;
     }
   </style>
+  <style>
+    .games {
+      font-family: 'Glacial Indifference', sans-serif;
+    }
+
+
+    .tabsWrappingDiv {
+      /*  left: 50%;
+          transform: translateX(-50%);
+          position: relative;
+          padding: 50px;
+          padding-bottom: 80px;
+          width: 70%;
+    */
+      width: 1024px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 5px;
+
+    }
+
+    /**
+     * Tabs
+     */
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+    .tabs label {
+      order: 1;
+      display: block;
+      padding: 1rem 2rem;
+      margin-right: 0.2rem;
+      cursor: pointer;
+      background: #eeeeee;
+      font-weight: bold;
+      font-size: 20px;
+      transition: background ease 0.2s;
+    }
+
+    .tabs .tab {
+      order: 99;
+      flex-grow: 1;
+      width: 100%;
+      display: none;
+      padding: 20pt 20pt 20pt 40pt;
+      background: #fff;
+    }
+
+    .tabs input[type="radio"] {
+      display: none;
+    }
+
+    .tabs input[type="radio"]:checked+label {
+      background: #fff;
+    }
+
+    .tabs input[type="radio"]:checked+label+.tab {
+      display: block;
+    }
+
+    @media (max-width: 45em) {
+
+      .tabs .tab,
+      .tabs label {
+        order: initial;
+      }
+
+      .tabs label {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0.2rem;
+      }
+    }
+
+    .pt-reduced {
+      padding: 0.01rem 1rem;
+    }
+  </style>
 </head>
 
 <body class="portfolio-details-page">
@@ -90,151 +173,227 @@
         style="width: 200px; height: 109px; margin: auto; display: block; " />
     </div-->
     <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section" style="padding: 10px 0px;">
+    <br>
+    <section id="portfolio-details" class="portfolio-details section" style="padding: 0px;">
 
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h3 style="display: flex;
-                    justify-content: center;
-                    align-items: center; padding: 0px;">Please enable Camera permissions. Raise your hands to answer
-          questions.</h3>
-        <div class="row gy-4">
 
+        <div class="row gy-4">
           <div style="display: flex;
                     justify-content: center;
                     align-items: center;">
-            <div id="game">
-              <div id="unity-container" class="unity-desktop">
-                <div id="loadingBox">
-                  <div style="position: absolute; left: 46%; top:40%">
-                    <span class="spinner-border text-primary" role="status"></span>
-                    <br>
-                    <span class="text-muted fs-6 fw-semibold mt-5">Loading...</span>
+            <iframe width="1024" height="576"
+              src="https://drive.google.com/file/d/17j1V7sGrwzq6vYHnRvMrXvkmskA8Cb9F/preview" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div style="display: flex;
+                            justify-content: center;
+                            align-items: center;">
+          <div class="tabsWrappingDiv">
+
+            <div class="tabs">
+
+
+
+              <input type="radio" name="tabs" id="tabthree">
+              <label for="tabthree">Download QuizzBuzz for Windows</label>
+              <div class="tab">
+                <h1>Download for Windows instructions</h1>
+                <h3>Once the File is downloaded, please extract the Zip file to another folder.</h3>
+                <h3>Open the folder and double click QuizzBuzz.exe to start.</h3>
+                <h3><b>Please stand 3 feet back for the camera to capture your body position.</b></h3>
+                <p>&nbsp;</p>
+                <a class="btn btn-primary btn-lg"
+                  href="https://drive.google.com/uc?export=download&id=1ArkAo8mlUIoXIl7ehoian4ZuQ3VnPPKe" download
+                  role="button" target="_blank">Download</a>
+              </div>
+
+              <input type="radio" name="tabs" id="tabtwo">
+              <label for="tabtwo">Download QuizzBuzz for Mac</label>
+              <div class="tab">
+                <h1>Download for Mac instructions</h1>
+                <h3>Once the File is downloaded, open the DMG file and Double click QuizzBuzz.App to start.</h3>
+                <h3><b>Please stand 3 feet back for the camera to capture your body position.</b></h3>
+                <p>&nbsp;</p>
+                <a class="btn btn-primary btn-lg"
+                  href="https://drive.google.com/uc?export=download&id=1ky3ybMkfduO5S4QN0gpE5uzusyJmJEPA" download
+                  role="button" target="_blank">Download</a>
+              </div>
+
+              <input type="radio" name="tabs" id="tabone" checked="checked">
+              <label for="tabone">Play on Browser</label>
+              <div class="tab">
+                <h3><b>Please enable Camera permissions on your browser when prompted.</b></h3>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Play QuizzBuzz
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header pt-reduced">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">QuizzBuzz</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div style="display: flex;
+                                          justify-content: center;
+                                          align-items: center;">
+                          <h3 style="padding: 0px;"><b>Please enable Camera permissions on your browser when
+                              prompted.</b>
+                          </h3>
+                        </div>
+                        <div id="game" style="display: flex;
+                                          justify-content: center;
+                                          align-items: center;">
+                          <div id="unity-container" class="unity-desktop">
+                            <div id="loadingBox">
+                              <div style="position: absolute; left: 46%; top:40%">
+                                <span class="spinner-border text-primary" role="status"></span>
+                                <br>
+                                <span class="text-muted fs-6 fw-semibold mt-5">Loading...</span>
+                              </div>
+                            </div>
+
+                            <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+                            <div id="unity-loading-bar">
+                              <div id="unity-logo"></div>
+                              <div id="unity-progress-bar-empty">
+                                <div id="unity-progress-bar-full"></div>
+                              </div>
+                            </div>
+                            <div id="unity-warning"> </div>
+                            <div id="unity-footer">
+
+                              <div id="unity-fullscreen-button"></div>
+
+                            </div>
+                          </div>
+                          <script>
+
+                            var container = document.querySelector("#unity-container");
+                            var canvas = document.querySelector("#unity-canvas");
+                            var loadingBar = document.querySelector("#unity-loading-bar");
+                            var progressBarFull = document.querySelector("#unity-progress-bar-full");
+                            var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+                            var warningBanner = document.querySelector("#unity-warning");
+
+                            // Shows a temporary message banner/ribbon for a few seconds, or
+                            // a permanent error message on top of the canvas if type=='error'.
+                            // If type=='warning', a yellow highlight color is used.
+                            // Modify or remove this function to customize the visually presented
+                            // way that non-critical warnings and error messages are presented to the
+                            // user.
+                            function unityShowBanner(msg, type) {
+                              function updateBannerVisibility() {
+                                warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+                              }
+                              var div = document.createElement('div');
+                              div.innerHTML = msg;
+                              warningBanner.appendChild(div);
+                              if (type == 'error') div.style = 'background: red; padding: 10px;';
+                              else {
+                                if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+                                setTimeout(function () {
+                                  warningBanner.removeChild(div);
+                                  updateBannerVisibility();
+                                }, 5000);
+                              }
+                              updateBannerVisibility();
+                            }
+
+                            var buildUrl = "/games/QuizzBuzz/Build";
+                            var loaderUrl = buildUrl + "/QuizzBuzz.loader.js";
+                            var config = {
+                              dataUrl: buildUrl + "/QuizzBuzz.data",
+                              frameworkUrl: buildUrl + "/QuizzBuzz.framework.js",
+                              codeUrl: buildUrl + "/QuizzBuzz.wasm",
+                              streamingAssetsUrl: "/games/QuizzBuzz/StreamingAssets",
+                              companyName: "DefaultCompany",
+                              productName: "QuizzBuzz",
+                              productVersion: "1.0",
+                              showBanner: unityShowBanner,
+                            };
+
+                            // By default, Unity keeps WebGL canvas render target size matched with
+                            // the DOM size of the canvas element (scaled by window.devicePixelRatio)
+                            // Set this to false if you want to decouple this synchronization from
+                            // happening inside the engine, and you would instead like to size up
+                            // the canvas DOM size and WebGL render target sizes yourself.
+                            // config.matchWebGLToCanvasSize = false;
+
+                            if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+                              // Mobile device style: fill the whole browser client area with the game canvas:
+
+                              var meta = document.createElement('meta');
+                              meta.name = 'viewport';
+                              meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+                              document.getElementsByTagName('head')[0].appendChild(meta);
+                              container.className = "unity-mobile";
+                              canvas.className = "unity-mobile";
+
+                              // To lower canvas resolution on mobile devices to gain some
+                              // performance, uncomment the following line:
+                              // config.devicePixelRatio = 1;
+
+
+                            } else {
+                              // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
+
+                              canvas.style.width = "960px";
+                              canvas.style.height = "600px";
+                            }
+
+                            loadingBar.style.display = "block";
+
+                            var script = document.createElement("script");
+                            script.src = loaderUrl;
+                            script.onload = () => {
+                              createUnityInstance(canvas, config, (progress) => {
+                                progressBarFull.style.width = 100 * progress + "%";
+                              }).then((unityInstance) => {
+                                document.getElementById("loadingBox").style.display = "none";
+                                loadingBar.style.display = "none";
+                                fullscreenButton.onclick = () => {
+                                  unityInstance.SetFullscreen(1);
+                                };
+                              }).catch((message) => {
+                                alert(message);
+                              });
+                            };
+
+                            document.body.appendChild(script);
+
+                          </script>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer pt-reduced">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
                   </div>
-                </div>
-
-                <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
-                <div id="unity-loading-bar">
-                  <div id="unity-logo"></div>
-                  <div id="unity-progress-bar-empty">
-                    <div id="unity-progress-bar-full"></div>
-                  </div>
-                </div>
-                <div id="unity-warning"> </div>
-                <div id="unity-footer">
-
-                  <div id="unity-fullscreen-button"></div>
-
                 </div>
               </div>
-              <script>
-
-                var container = document.querySelector("#unity-container");
-                var canvas = document.querySelector("#unity-canvas");
-                var loadingBar = document.querySelector("#unity-loading-bar");
-                var progressBarFull = document.querySelector("#unity-progress-bar-full");
-                var fullscreenButton = document.querySelector("#unity-fullscreen-button");
-                var warningBanner = document.querySelector("#unity-warning");
-
-                // Shows a temporary message banner/ribbon for a few seconds, or
-                // a permanent error message on top of the canvas if type=='error'.
-                // If type=='warning', a yellow highlight color is used.
-                // Modify or remove this function to customize the visually presented
-                // way that non-critical warnings and error messages are presented to the
-                // user.
-                function unityShowBanner(msg, type) {
-                  function updateBannerVisibility() {
-                    warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
-                  }
-                  var div = document.createElement('div');
-                  div.innerHTML = msg;
-                  warningBanner.appendChild(div);
-                  if (type == 'error') div.style = 'background: red; padding: 10px;';
-                  else {
-                    if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-                    setTimeout(function () {
-                      warningBanner.removeChild(div);
-                      updateBannerVisibility();
-                    }, 5000);
-                  }
-                  updateBannerVisibility();
-                }
-
-                var buildUrl = "Build";
-                var loaderUrl = buildUrl + "/QuizzBuzz.loader.js";
-                var config = {
-                  dataUrl: buildUrl + "/QuizzBuzz.data",
-                  frameworkUrl: buildUrl + "/QuizzBuzz.framework.js",
-                  codeUrl: buildUrl + "/QuizzBuzz.wasm",
-                  streamingAssetsUrl: "StreamingAssets",
-                  companyName: "DefaultCompany",
-                  productName: "QuizzBuzz",
-                  productVersion: "1.0",
-                  showBanner: unityShowBanner,
-                };
-
-                // By default, Unity keeps WebGL canvas render target size matched with
-                // the DOM size of the canvas element (scaled by window.devicePixelRatio)
-                // Set this to false if you want to decouple this synchronization from
-                // happening inside the engine, and you would instead like to size up
-                // the canvas DOM size and WebGL render target sizes yourself.
-                // config.matchWebGLToCanvasSize = false;
-
-                if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-                  // Mobile device style: fill the whole browser client area with the game canvas:
-
-                  var meta = document.createElement('meta');
-                  meta.name = 'viewport';
-                  meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-                  document.getElementsByTagName('head')[0].appendChild(meta);
-                  container.className = "unity-mobile";
-                  canvas.className = "unity-mobile";
-
-                  // To lower canvas resolution on mobile devices to gain some
-                  // performance, uncomment the following line:
-                  // config.devicePixelRatio = 1;
-
-
-                } else {
-                  // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
-                  canvas.style.width = "960px";
-                  canvas.style.height = "600px";
-                }
-
-                loadingBar.style.display = "block";
-
-                var script = document.createElement("script");
-                script.src = loaderUrl;
-                script.onload = () => {
-                  createUnityInstance(canvas, config, (progress) => {
-                    progressBarFull.style.width = 100 * progress + "%";
-                  }).then((unityInstance) => {
-                    document.getElementById("loadingBox").style.display = "none";
-                    loadingBar.style.display = "none";
-                    fullscreenButton.onclick = () => {
-                      unityInstance.SetFullscreen(1);
-                    };
-                  }).catch((message) => {
-                    alert(message);
-                  });
-                };
-
-                document.body.appendChild(script);
-
-              </script>
             </div>
-
           </div>
-
-
+        </div>
+        <div>
 
         </div>
 
       </div>
-
-
+      <br />
     </section><!-- /Portfolio Details Section -->
+
     <!-- Games Section -->
     <section id="games" class="games section light-background" style="padding: 10px;">
 

@@ -6,22 +6,17 @@
 * License: https://bootstrapmade.com/license/
 */
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('/newassets/helvetica-neue-5/HelveticaNeueRoman.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Helvetica Neue", sans-serif;
-  --heading-font: "Helvetica Neue", sans-serif;
-  --nav-font: "Helvetica Neue", sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -70,7 +65,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: var(--default-font) !important;
+  font-family: var(--default-font);
 }
 
 a {
@@ -1537,8 +1532,4 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
-}
-
-* {
-  font-family: "Helvetica Neue", sans-serif !important;
 }

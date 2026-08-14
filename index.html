@@ -39,6 +39,83 @@
     .gameTitle {
       color: rgb(6, 6, 127);
     }
+
+    /* Hero — Deep Ocean gradient with CTA buttons */
+    #hero {
+      background: linear-gradient(135deg, #020609 0%, #071628 45%, #0a2942 100%);
+    }
+
+    #hero:before {
+      background: transparent;
+    }
+
+    #hero:after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background: radial-gradient(60% 55% at 70% 20%, rgba(20, 157, 221, 0.28), transparent 70%);
+    }
+
+    #hero .container {
+      text-align: center;
+    }
+
+    #hero .hero-tagline {
+      font-size: 22px;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.72);
+      margin-top: 14px;
+    }
+
+    #hero .hero-actions {
+      margin-top: 40px;
+      display: flex;
+      gap: 18px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    #hero .hero-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 14px 34px;
+      border-radius: 8px;
+      text-decoration: none;
+      border: 2px solid transparent;
+      transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    #hero .hero-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    #hero .hero-btn i {
+      font-size: 18px;
+    }
+
+    #hero .hero-btn-primary {
+      background: #149ddd;
+      color: #fff;
+      box-shadow: 0 8px 24px rgba(20, 157, 221, 0.35);
+    }
+
+    #hero .hero-btn-primary:hover {
+      background: #1babf0;
+    }
+
+    #hero .hero-btn-ghost {
+      border-color: rgba(255, 255, 255, 0.35);
+      color: #fff;
+    }
+
+    #hero .hero-btn-ghost:hover {
+      border-color: #149ddd;
+      color: #149ddd;
+    }
   </style>
 </head>
 
@@ -81,14 +158,14 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="newassets/img/hero.jpg" alt="" data-aos="fade-in" class="aos-init aos-animate">
-
       <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
         <h2>Kunal Shah</h2>
-        <p>I'm a <span class="typed"
-            data-typed-items="Game Developer, Designer, Publicist, Swim Instructor"></span><span class="typed-cursor"
-            aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
-            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <p class="hero-tagline">Math &amp; Computer Science @ UC San Diego</p>
+        <div class="hero-actions">
+          <a class="hero-btn hero-btn-primary" href="index.html#artwork"><i class="bi bi-easel"></i> Portfolio</a>
+          <a class="hero-btn hero-btn-ghost" href="https://github.com/kunioshah/" target="_blank"><i
+              class="bi bi-github"></i> Github</a>
+        </div>
       </div>
 
     </section><!-- /Hero Section -->
